@@ -1,0 +1,91 @@
+* {
+  font-family: 'Oswald', sans-serif;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+body{
+  width: 100%;
+  background: #A9A9A9;
+  box-sizing: border-box;
+}
+
+.container{
+  margin: 5px 50px 5px 50px;
+  background: whitesmoke;
+  box-shadow: 0 2px 0 2px #000;
+
+}
+
+.header, h1{
+  font-size: 36px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+h2,h3,h4,h5,h6{
+font-size: 2em;
+text-align: left;
+padding: 5px 10px 0px 10px;
+margin: auto;
+}
+
+.menu, ul{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    height: fit-content;
+    font-size: 24px;
+
+
+}
+
+.thanks_photo
+{
+  float: none;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 5px 10px;
+}
+.photo_of_me{
+  float: left ;
+  border: #000;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 5px 10px;
+}
+
+.content{
+  text-align: justify;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  
+}
+
+.contacts,ul{
+  list-style-type: none;
+  height: fit-content;
+  padding-left: 5px;
+  padding-top: 0px;
+  font-size: 20px;
+}
+
+.footer_copyright{
+float: left;
+}
+.footer_uptobeginning
+{
+  float: right;
+}
+p{
+  text-align: justify;
+}
+
+a:hover{
+  color:blue;
+}
+
+a:visited{
+  color:chocolate;
+}
