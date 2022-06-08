@@ -10,13 +10,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<script src="/js/script.js" defer></script>
 </head>
 
 <body>
+<script>
+ let name= prompt("Введите ваше имя:")
+ if (name!=null)
+ {
+   alert("Приветствую тебя "+ name + " !")
+ }
+ else{
+   alert("Как хочешь,оставайся анонимным")
+ }
+</script>
+
   <div class="container">
     <div class="header">
-      <h1>Мой первый резюме-блог</h1>
-    </div>
+      <h1>Моё резюме</h1>
     <div class="menu">
       <ul>
         <li><a href="#about_me">Обо мне</a></li>
@@ -27,19 +38,23 @@
         
       </ul>
     </div>
-    <div class="photo_of_me">
-      <a href="#"><img src="images/my_photo.png" alt="my_photo"></a>
   </div>
+
+
+<div class="photo_of_me">
+  <button id="toggle-theme-btn"><img src="/images/my_photo.png" alt="my photo" id="toggle-theme-image"></button>
+</div>
+
 <div class="content">
 <p id="about_me">
- <h2>Обо мне</h2>
-  
- <hr> Касторин Пётр Сергевич 
- <hr>  Мужчина,20 лет(2001 год)
- <hr> Студент МГУ.Студент школы гик-брейн.<hr> Набираю массив знаний для применения их на практике и в начуной деятельности ,для создания в конечном итоге профессиональной компетенции* . Активная творческая и активистская наутра,математический склад ума,дружу с систематической логикой.Смотрю на мир с иронией и шуткой ,однако без гипербализации. С творчеством меня связывает любовь к кинематографу и написание стихов .С активисткой деятельностью организация мероприятий в вузе, организация киберспортивных мероприятий в вузе. Если принимаюсь за работу ,делаю до конца .Люблю решать задачи программироваия (понял ещё при подготовке к ЕГЭ по информатике ). Быстро нахожу связь с людьми.
+ <h2><p>Обо мне</p></h2>
+ <hr><p>Касторин Пётр Сергевич</p>
+ <hr>  <p>Мужчина,20 лет(2001 год)</p>
+ <hr> <p>Студент МГУ.Студент школы гик-брейн.</p>
+ <hr> <p>Набираю массив знаний для применения их на практике и в начуной деятельности ,для создания в конечном итоге профессиональной компетенции* . Активная творческая и активистская наутра,математический склад ума,дружу с систематической логикой.Смотрю на мир с иронией и шуткой ,однако без гипербализации. С творчеством меня связывает любовь к кинематографу и написание стихов .С активисткой деятельностью организация мероприятий в вузе, организация киберспортивных мероприятий в вузе. Если принимаюсь за работу ,делаю до конца .Люблю решать задачи программироваия (понял ещё при подготовке к ЕГЭ по информатике ). Быстро нахожу связь с людьми.</p>
   </p> 
-  <p id="myachievements">
   <h3>Мои достижения</h3>
+  <p id="myachievements">
     
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nesciunt vel sapiente sequi nulla amet officiis, aspernatur suscipit voluptate nemo fugit a. Placeat atque in, sint soluta officia molestiae repellendus!
         Debitis itaque incidunt atque nobis provident ex. Iure commodi fugit porro saepe, perferendis ut totam non. Nemo inventore perferendis voluptatibus sint. Esse dolorum, necessitatibus in error dolores officiis quod expedita.
@@ -52,8 +67,8 @@
         Vitae odio voluptates nostrum doloribus nobis, maxime animi voluptatum, praesentium soluta possimus voluptas in laudantium natus porro labore. Corporis optio ducimus nesciunt alias mollitia culpa, nihil vel repellendus laborum qui?
         Ipsum cupiditate tempora expedita qui numquam veniam provident, dolor a corrupti necessitatibus, aut nihil sed quam quas sunt aliquid dolorem ab! Numquam error vel quas repudiandae quasi consectetur ducimus dignissimos.
       </p>
+      <h4>Навыки</h4>
     <p id="skills">
-    <h4>Навыки</h4>
     
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nesciunt vel sapiente sequi nulla amet officiis, aspernatur suscipit voluptate nemo fugit a. Placeat atque in, sint soluta officia molestiae repellendus!
           Debitis itaque incidunt atque nobis provident ex. Iure commodi fugit porro saepe, perferendis ut totam non. Nemo inventore perferendis voluptatibus sint. Esse dolorum, necessitatibus in error dolores officiis quod expedita.
@@ -85,19 +100,16 @@
   </p>
  </div>
 </div>
-    
- <div class="thanks_photo">
-        <img src="images/thanks.webp" alt="thanks for attention">
- </div>
-
- <div сlass="footer">
+<div class="thanks_photo">
+  <img src="images/thanks.webp" alt="thanks for attention">
+</div>
+</div>
+  <div сlass="footer">
     <div class="footer_copyright">
       <a href="gb.ru">Моё резюме. Все права защищены(c)</a>
     </div>
     <div class="footer_uptobeginning">
       <a href="#top">Перейти вверх страницы</a>
     </div>
- </div>
-
 </body>
 </html>

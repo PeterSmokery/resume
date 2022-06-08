@@ -5,54 +5,106 @@
 html{
   overflow-x: hidden;
 }
+:root {
+  --box-shadow-color: #000;
+  --background: #fff;
+  --background_body: #A9A9A9;
+  --h: #000;
+  --p: #000;
+  --a:#228B22;
+  --li:#000;
+  --hr:#000;
+}
 
 body{
   width: 100%;
-  background: #A9A9A9;
+  background: var(--background_body);
   box-sizing: border-box;
+}
+body.dark{
+  --box-shadow-color: whitesmoke;
+  --background:#800080;
+  --background_body:#000;
+  --h: white;
+  --p: white;
+  --a: #D2691E;
+  --li:white;
+  --hr:white;
+  background: #000;
+
 }
 
 .container{
   margin: 5px 50px 5px 50px;
-  background: whitesmoke;
-  box-shadow: 0 2px 0 2px #000;
-
+  background: var(--background);
+  box-shadow: 0 2px 0 2px var(--box-shadow-color) ;
+  height: fit-content;
 }
+
 
 .header, h1{
-  font-size: 36px;
-  text-align: center;
-  padding-top: 30px;
+  font-size: 24px;
+  position: sticky;
+  top:0;
+  display: flex;
+  width: auto;
+  height: 100%;
+  margin:-8px ;
+  background-color: var(--background_body);
 }
+h1{
+  margin: -8px 40px;
+  color: var(--h);
+}
+
 
 h2,h3,h4,h5,h6{
 font-size: 2em;
 text-align: left;
 padding: 5px 10px 0px 10px;
 margin: auto;
+color: var(--h);
 }
 
 .menu, ul{
     list-style-type: none;
     text-decoration: none;
-    text-align: left;
+    text-align: center;
     height: fit-content;
-    font-size: 24px;
-
+    display: flex;
+    width: auto;
+    padding: 8px 20px;
+    margin: 0px 15px;
 
 }
 
 .thanks_photo
 {
-  float: none;
+  display: flex;
   padding: 5px 5px 5px 5px;
   margin: 10px 10px 5px 10px;
 }
+
+
+
 .photo_of_me{
   float: left ;
   border: #000;
   padding: 5px 5px 5px 5px;
   margin: 10px 10px 5px 10px;
+}
+
+#toggle-theme-btn{
+  position: left;
+  float: none;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 10px 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 0,2s ;
+}
+#toggle-theme-btn:hover{
+  background: #A9A9A9 ;
 }
 
 .content{
@@ -71,6 +123,11 @@ margin: auto;
   font-size: 20px;
 }
 
+li{
+  margin: 0 10px;
+  color:var(--li)
+}
+
 .footer_copyright{
 float: left;
 }
@@ -78,14 +135,24 @@ float: left;
 {
   float: right;
 }
+
 p{
   text-align: justify;
+  color: var(--p);
 }
 
 a:hover{
-  color:blue;
+  color:Lime;
+}
+a:visited{
+  color: var(--a);
 }
 
-a:visited{
-  color:chocolate;
+hr{
+  color: var(--hr);
+}
+@media screen and (min-width:320px) and (max-width:1024px) {
+  html,body,.container,.content,.menu,p, .footer{
+    width: 100%;
+  }
 }
