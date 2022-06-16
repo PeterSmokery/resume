@@ -1,10 +1,8 @@
 <?
 $data =include('datainfo.php');
-$achivements=include('achivements.php');
-$skills=include('skills.php');
 $startData = $data['about'];
-$SecondData = $achivements['achivements'];
-$thirdData=$skills['skills'];
+$SecondData = $data['achivements'];
+$thirdData=$data['skills'];
 ?>
 <!DOCTYPE html>
 <html lang="ru">
