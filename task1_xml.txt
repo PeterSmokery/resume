@@ -1,0 +1,16 @@
+решение:
+нужно закрывающий пароль занести внутрь 
+<doRegister>
+   <email>olga@gmail.com</email>
+   <name>Ольга</name>
+   <password>1</password>
+</doRegister>
+ 
+условие:
+
+<doRegister>
+   <email>olga@gmail.com</email>
+   <name>Ольга</name>
+   <password>1
+</doRegister>
+</password>

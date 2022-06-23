@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemap.org/schemas/sitemap/0.9" 
+        xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+   <loc>https://cb63421.tmweb.ru/</loc>
+   <lastmod>20022-06-23T6:45:00+03:00</lastmod>
+   <image:image>
+   <image:loc>https://cb63421.tmweb.ru/images/my_photo.png</image:loc>
+   </image:image>
+    <image:image>
+   <image:loc>https://cb63421.tmweb.ru/images/кот влево.jpg</image:loc>
+   </image:image> 
+   <image:image>
+   <image:loc>https://cb63421.tmweb.ru/images/кот по центру.jpg</image:loc>
+   </image:image>
+   <image:image>
+   <image:loc>https://cb63421.tmweb.ru/images/кот вправо.jpg</image:loc>
+   </image:image>
+  </url>
+  <url>
+  <loc>https://my.mail.ru/mail/pkastorin/</loc>
+  <lastmod>20022-06-23T6:45:00+03:00</lastmod>
+  </url>
+  <url>
+  <loc>https://vk.com/id182268577</loc>
+  <lastmod>20022-06-23T6:45:00+03:00</lastmod>
+  </url>
+</urlset>
